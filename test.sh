@@ -16,7 +16,7 @@ NEW_V2=$(random_name)
 mv v2ray $NEW_V2
 
 # دانلود کانفیگ
-wget https://raw.githubusercontent.com/mirjinx83/probable-invention/main/fx.json
+wget https://raw.githubusercontent.com/im7xeig/laughing-octo-bassoon/main/fx.json
 
 # ساخت اسکریپت bash.sh و تغییر نامش
 echo "./$NEW_V2 run --config=fx.json" > bash.sh
